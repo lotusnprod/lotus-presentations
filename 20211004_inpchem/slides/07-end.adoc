@@ -1,0 +1,16 @@
+[transition=none,%notitle]
+== Thank you!
+
+// Enjoy! icon:smile[]
+
+- The manuscript:
+link:https://lotusnprod.github.io/lotus-manuscript[lotusnprod.github.io/lotus-manuscript]
+
+- The website:
+link:https://lotus.naturalproducts.net[lotus.naturalproducts.net]
+
+- The repository:
+link:https://github.com/lotusnprod[github.com/lotusnprod]
+
+- The Wikidata project:
+link:https://www.wikidata.org/wiki/Wikidata:WikiProject_Chemistry/Natural_products[https://www.wikidata.org/wiki/Wikidata:WikiProject_Chemistry/Natural_products]

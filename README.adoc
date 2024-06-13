@@ -1,0 +1,39 @@
+= Lotus-slides
+:icons: font
+:source-highlighter: highlightjs
+:toc: macro
+
+toc::[]
+
+== Overview
+
+The slides corresponding to the different talks given in the frame of the lotus-initiative.
+
+Each talk corresponds to a subfolder.
+
+To create a new one, simply start from an older one and everything should build easily, thanks to https://github.com/bjonnh[bjonnh] !
+
+== Generation of the slides
+
+Again, the whole process is explained in the https://github.com/Ardemius/asciidoctor-presentation#slides-rendering-with-revealjs[main doc of the repo]. +
+But, as a reminder, here is just the final command:
+
+[source,asciidoctor]
+----
+bash build.sh
+----
+
+== Generation of the pages
+
+If you want your presentation to be indexed on the https://lotus.nprod.net/lotus-slides/[following page], then just create an additional `yourPresentation.md` file corresponding to `yourSubfolder/` where your index.html is located 
+
+Then fill it accordingly:
+
+[source,asciidoctor]
+----
+---
+title: yourPresentation
+layout: template
+filename: yourSubfolder/index.html
+--- 
+----
