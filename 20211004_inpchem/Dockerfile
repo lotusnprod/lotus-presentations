@@ -1,7 +1,9 @@
-FROM ruby:3.3.3
+FROM ruby:3.3.3-alpine
+
+RUN gem install bundler && \
+    bundle config --local path .bundle/gems
 
 COPY Gemfile .
-RUN gem install bundler
-RUN bundle config --local path .bundle/gems
-RUN bundle install
-RUN bundle binstubs --all
+
+RUN --mount=type=cache,target=/root/.gem bundle install && \
+    bundle binstubs --all
