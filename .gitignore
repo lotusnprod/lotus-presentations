@@ -1,4 +1,12 @@
-# ignore Bundler / JRuby files
+_site/
+
+.quarto/
+
 .bundle
 Gemfile.lock
 .DS_Store
+
+*.key
+*.pages
+
+/.quarto/
