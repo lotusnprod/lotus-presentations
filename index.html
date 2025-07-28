@@ -4479,7 +4479,7 @@ window.Quarto = {
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="VGFsaw==" data-listing-date-sort="1688342400000" data-listing-file-modified-sort="1753697515832" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="quarto-post image-right" data-index="0" data-categories="VGFsaw==" data-listing-date-sort="1688342400000" data-listing-file-modified-sort="1753719575501" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <div class="thumbnail"><a href="./2023-07-03_GA.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -4520,7 +4520,7 @@ https://doi.org/10.1055/s-0043-1773831
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="VGFsaw==" data-listing-date-sort="1633305600000" data-listing-file-modified-sort="1753697515500" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="quarto-post image-right" data-index="1" data-categories="VGFsaw==" data-listing-date-sort="1633305600000" data-listing-file-modified-sort="1753719575163" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <div class="thumbnail"><a href="./2021-10-04_INPCHEM.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -4554,7 +4554,7 @@ i-npchem inaugural e-meeting
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="VGFsaw==" data-listing-date-sort="1631059200000" data-listing-file-modified-sort="1753697515499" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="quarto-post image-right" data-index="2" data-categories="VGFsaw==" data-listing-date-sort="1631059200000" data-listing-file-modified-sort="1753719575163" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <div class="thumbnail"><a href="./2021-09-08_GA_1.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -4588,7 +4588,7 @@ Adriano Rutz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="VGFsaw==" data-listing-date-sort="1617235200000" data-listing-file-modified-sort="1753697515499" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="quarto-post image-right" data-index="3" data-categories="VGFsaw==" data-listing-date-sort="1617235200000" data-listing-file-modified-sort="1753719575163" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <div class="thumbnail"><a href="./2021-04-01_RFMF.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -4734,6 +4734,11 @@ Adriano Rutz
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
