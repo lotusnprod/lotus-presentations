@@ -44,6 +44,7 @@ jobs:
           tinytex: true
       - name: Build site
         run: |
+          bash copy_dirs.sh
           uv run quarto render
           bash copy_dirs.sh
       - name: Deploy to GitHub pages 🚀
