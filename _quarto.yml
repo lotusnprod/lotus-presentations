@@ -25,3 +25,5 @@ format:
   html:
     embed-resources: true
     self-contained: true
+
+kernel: .venv
