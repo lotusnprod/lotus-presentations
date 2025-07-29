@@ -1,28 +1,27 @@
-project:
-  type: website
-  render:
-    - "*.qmd"
-
-website:
-  title: LOTUS Presentations
-  description: LOTUS Presentations
-  site-path: ./
-  site-url: https://lotus.nprod.net/lotus-presentations
-  repo-url: https://github.com/lotusnprod/lotus-presentations
-  search:
-    location: navbar
-  open-graph:
-    locale: en
-    site-name: https://lotus.nprod.net/lotus-presentations
-  navbar: true
-
+---
+title: Presentations
+listing:
+  - id: presentations
+    contents: "*.qmd"
+    exclude:
+      file: index.qmd
+    sort: date desc
+    categories: true
+    feed: true
+    sort-ui: true
+    filter-ui: true
+    fields:
+      - title
+      - description
+      - author
+      - venue
+      - location
+      - categories
+      - image
+      - image-alt
+      - doi
+      - date
 format:
   html:
-    grid:
-      body-width: 1200px
-    link-external-newwindow: true
-    theme:
-      light: flatly
-      dark: darkly
-    respect-user-color-scheme: true
-    smooth-scroll: true
+    embed-resources: true
+    self-contained: true

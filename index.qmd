@@ -1,16 +1,16 @@
 ---
-title: LOUTS Presentations
-listing: 
+title: LOTUS Presentations
+listing:
   - id: presentations
     contents: "*.qmd"
-    exclude: 
+    exclude:
       file: index.qmd
     sort: date desc
     categories: true
     feed: true
     sort-ui: true
     filter-ui: true
-    fields: 
+    fields:
       - title
       - description
       - author
