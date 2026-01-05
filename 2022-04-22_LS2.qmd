@@ -1,9 +1,8 @@
 ---
-title: The LOTUS Initiative for Knowledge Sharing in Natural Products Research
-venue: 69th International Congress and Annual Meeting of the Society for
-  Medicinal Plant and Natural Product Research
-date: 2021-09-08
-# location: online
+title: "The LOTUS Initiative: Integrating Natural Products to the Wikidata Knowledge Base"
+venue: "LS2 Annual Meeting 2022 Life Sciences in the 2020s: Quantitation, Integration & Prediction"
+date: 2022-04-22
+location: Zürich, Switzerland
 categories:
   - Talk
 author:
@@ -27,7 +26,7 @@ affiliations:
     country: Switzerland
     postal-code: 1211
 description: >
-  Advocating to the Medicinal Plant and Natural Product community for the [LOTUS initiative](https://lotus.nprod.net/).
+  Advocating to the Life Sciences community for the [LOTUS initiative](https://lotus.nprod.net/).
 
-  Available [here](https://lotus.nprod.net/lotus-presentations/20210908_ga/210908_GA-lotus.pdf).
+  Available [here](https://lotus.nprod.net/lotus-presentations/20220422_ls2/20220422_ls2-talk.pdf).
 ---
